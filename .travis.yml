@@ -36,6 +36,8 @@ virtualenv:
 
 install:
   - git clone --depth=1 https://github.com/OCA/maintainer-quality-tools.git ${HOME}/maintainer-quality-tools
+  - sudo mkdir /var/log/openerp
+  - sudo touch /var/log/openerp/openerp-edi.log
   - export PATH=${HOME}/maintainer-quality-tools/travis:${PATH}
   - travis_install_nightly
 
