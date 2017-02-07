@@ -1,0 +1,10 @@
+external https://github.com/Comunitea/external_modules.git 8.0
+reporting-engine
+account-analytic
+account-financial-tools
+alimentacion https://github.com/Comunitea/alimentacion.git 8.0
+jasper https://github.com/Comunitea/Jasperv8.git 8.0
+commission https://github.com/Comunitea/commission.git multicompany_by_partner
+web
+l10n-spain
+stock-logistics-warehouse
