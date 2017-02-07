@@ -8,13 +8,13 @@
             <field name="type">form</field>
             <field eval="7" name="priority"/>
             <field name="arch" type="xml">
-                <page string="Descriptions" position="after">
+                <notebook position="inside">
                     <page string="Properties">
                         <separator string="Dimensions" colspan="4" name="dimensions"/>
                         <separator string="Features" colspan="4" name="features"/>
                         <separator string="Packaging" colspan="4" name="packaging2"/>
                     </page>
-                 </page>
+                 </notebook>
             </field>
         </record>
     </data>
