@@ -8,3 +8,4 @@ commission https://github.com/Comunitea/commission.git multicompany_by_partner
 web
 l10n-spain
 stock-logistics-warehouse
+purchase-workflow
